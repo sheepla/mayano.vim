@@ -5,5 +5,6 @@
 " =============================================================================
 
 function! mayano#enable()
+  echomsg 'いっくよー！'
   autocmd TextYankPost * echomsg 'アイ・コピー！'
 endfunction

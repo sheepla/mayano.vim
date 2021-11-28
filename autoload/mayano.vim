@@ -6,14 +6,16 @@
 
 function! mayano#enable()
     augroup mayano
-        autocmd! " clear autocmd
+        " clear autocmd
+        autocmd!
         autocmd TextYankPost * echomsg 'アイ・コピー！'
     augroup END
 endfunction
 
 function! mayano#disable()
     augroup mayano
-        autocmd! " clear autocmd
+        " clear autocmd
+        autocmd!
     augroup END
 endfunction
 

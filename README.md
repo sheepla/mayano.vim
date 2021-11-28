@@ -1,6 +1,6 @@
 # mayano.vim
 
-アイ・コピー！
+*アイ・コピー！*
 
 ## Usage
 
@@ -15,3 +15,13 @@ call dein#add('sheepla/mayano.vim')
 ```
 
 ...or use your favorite plugin manager.
+
+## More info
+
+```vim
+:help mayano
+```
+
+## LICENSE
+
+[The Unlicense](./LICENSE)

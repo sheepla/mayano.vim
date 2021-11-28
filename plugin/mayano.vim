@@ -12,3 +12,4 @@ endif
 let g:loaded_mayano = v:true
 
 command! MayanoEnable :call mayano#enable()
+command! MayanoDisable :call mayano#disable()

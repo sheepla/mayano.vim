@@ -5,6 +5,15 @@
 " =============================================================================
 
 function! mayano#enable()
-  echomsg 'いっくよー！'
-  autocmd TextYankPost * echomsg 'アイ・コピー！'
+    augroup mayano
+        autocmd! " clear autocmd
+        autocmd TextYankPost * echomsg 'アイ・コピー！'
+    augroup END
 endfunction
+
+function! mayano#disable()
+    augroup mayano
+        autocmd! " clear autocmd
+    augroup END
+endfunction
+

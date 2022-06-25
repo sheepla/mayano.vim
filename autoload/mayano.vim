@@ -5,6 +5,8 @@
 " =============================================================================
 
 function! mayano#enable()
+    echomsg 'Vimちん、テイクオーフ！'
+
     augroup mayano
         " clear autocmd
         autocmd!
